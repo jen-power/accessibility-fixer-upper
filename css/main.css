@@ -2,6 +2,10 @@ html {
   font-family: Merriweather, serif;
 }
 
+.read-more {
+  color: #113c00;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -10,9 +14,13 @@ html {
   color: #113c00;
 }
 
-a {
+nav a {
   color: #568c36;
   text-decoration: none;
+}
+
+a {
+  color: #568c36;
 }
 
 a:hover {
@@ -36,7 +44,8 @@ a:hover {
   text-decoration: none;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
   background-color: #fff;
   color: #113c00;
 }

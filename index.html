@@ -21,20 +21,20 @@
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
-    <nav class="nav" role="navigation">
+    <nav class="nav" role="navigation" id="nav">
       <div class="wrapper gutter-1-2">
         <ol class="mega list-group-inline push-0">
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
         </ol>
       </div>
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main">
     <section class="about push" id="about">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrubs.jpg" alt="a shrub">
@@ -78,7 +78,7 @@
       </div>
     </section>
 
-    <section class="prices pad-t pad-b">
+    <section class="prices pad-t pad-b" id="prices">
       <div class="wrapper gutter-1-2">
         <h2 class="push-0 color-brand-dark">Prices</h2>
         <span class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
@@ -112,7 +112,7 @@
       </div>
     </section>
 
-    <section class="news pad-t pad-b">
+    <section class="news pad-t pad-b" id="news">
       <div class="wrapper gutter-1-2">
         <h2 class="push-0 color-brand-dark">News</h2>
         <p class="mega max-length not-centered">Then, when you have found the shrubbery, you must cut down the mightiest tree in the forest… with… a herring!</p>
@@ -134,15 +134,15 @@
       </div>
     </section>
 
-    <section class="contact pad-t pad-b">
+    <section class="contact pad-t pad-b" id="contact">
       <div class="wrapper">
         <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
         <p class="mega max-length not-centered gutter-1-2">We want… a shrubbery!</p>
 
         <form class="grid" method="post" action="#">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label class="push-1-8" for="name" required>Your name</label>
-            <input id="name">
+            <label class="push-1-8" for="name">Your name</label>
+            <input id="name" required>
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label class="push-1-8" for="email">E-mail address</label>
